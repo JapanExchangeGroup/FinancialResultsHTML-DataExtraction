@@ -21,7 +21,7 @@
 
 ## With pull requests
 本リポジトリに含まれるものへの改善、加筆等をプルリクエストにて受け付けております。
-また、branchは、main(release用),develop,feature(加筆修正用)で管理をしております。
+また、branchは、main(release用), dev, feature(加筆修正用)で管理をしております。
 
 なお、プルリクエストを出していただく際には、以下の観点にご注意ください。
 
