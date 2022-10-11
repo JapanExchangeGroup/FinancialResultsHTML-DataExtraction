@@ -79,7 +79,7 @@ class TestFinancialResultReader:
                     continue
 
                 valid_tables.append(table)
-            
+
             if len(valid_tables) > 0:
                 tables[name] = valid_tables[1]  # 0=前期、1=当期
         return tables
@@ -111,13 +111,9 @@ class TestFinancialResultReader:
                     names, ["コンサルティング", "金融ITソリューション", "産業ITソリューション", "IT基盤サービス"]
                 )
             elif name == "sample6.htm":
-                np.testing.assert_array_equal(
-                    names, ["内視鏡", "治療機器", "科学", "その他"]
-                )
+                np.testing.assert_array_equal(names, ["内視鏡", "治療機器", "科学", "その他"])
             elif name == "sample7.htm":
-                np.testing.assert_array_equal(
-                    names, ["eコマース事業", "ロジスティクス事業"]
-                )
+                np.testing.assert_array_equal(names, ["eコマース事業", "ロジスティクス事業"])
 
     def test_read_table_sales_profit(self, htmls: dict[str, BeautifulSoup]) -> None:
         tables = self.get_current_tables(htmls)
@@ -138,7 +134,6 @@ class TestFinancialResultReader:
                 np.testing.assert_array_equal(names, ["売上高", "営業利益又は損失"])
             elif name == "sample7.htm":
                 np.testing.assert_array_equal(names, ["売上高", "セグメント利益又は損失(△)"])
-
 
     def test_read_segment_sales_profit(self, htmls: dict[str, BeautifulSoup]) -> None:
         tables = self.get_current_tables(htmls)
