@@ -30,4 +30,4 @@ HTML 化された決算短信は、[適時開示情報閲覧サービス](https:
 
 ## ハンズオンの進め方
 
-Amazon SageMaker Studio Lab を使用し簡単に始めることができます。ハンズオンのはじめ方は、 [ハンズオンの進め方](docs/README_usage.md)を参照してください。 
+Amazon SageMaker Studio Lab を使用し簡単に始めることができます。ハンズオンのはじめ方は、 [ハンズオンの進め方](docs/README_usage.md)を参照してください。
