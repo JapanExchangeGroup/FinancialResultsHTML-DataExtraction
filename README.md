@@ -1,5 +1,13 @@
 # 決算短信セグメント情報のデータ抽出ハンズオン
 
+[![Source Code Check](https://github.com/JapanExchangeGroup/FinancialResultsHTML-DataExtraction/actions/workflows/ci.yml/badge.svg)](https://github.com/JapanExchangeGroup/FinancialResultsHTML-DataExtraction/actions/workflows/ci.yml)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Code style: flake8](https://img.shields.io/badge/code%20style-flake8-black)](https://github.com/PyCQA/flake8)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+[![Typing: mypy](https://img.shields.io/badge/typing-mypy-blue)](https://github.com/python/mypy)
+
+
 HTML 化された決算短信から、セグメント情報を抽出する方法が学べるハンズオンです。
 
 ![top.jpg](notebooks/images/top.jpg)
@@ -22,4 +30,4 @@ HTML 化された決算短信は、[適時開示情報閲覧サービス](https:
 
 ## ハンズオンの進め方
 
-Amazon SageMaker Studio Lab を使用し簡単に始めることができます。ハンズオンのはじめ方は、 [ハンズオンの進め方](docs/README_usage.md)を参照してください。 
+Amazon SageMaker Studio Lab を使用し簡単に始めることができます。ハンズオンのはじめ方は、 [ハンズオンの進め方](docs/README_usage.md)を参照してください。

@@ -234,7 +234,7 @@ def read_table_sales_profit(table: Tag) -> list[Account]:
         account_cell = row.find_next("td")
         if "rowspan" in account_cell.attrs:
             skip_rows = int(account_cell.attrs["rowspan"]) - 1
-        
+
         account_text = NORMALIZER.sub("", account_cell.text)
         if account_text:
             if sales is None:
