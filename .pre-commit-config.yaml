@@ -32,11 +32,6 @@ repos:
     hooks:
     -   id: mypy
 
--   repo: https://github.com/pre-commit/mirrors-mypy
-    rev: v0.971
-    hooks:
-    -   id: mypy
-
 -   repo: local
     hooks:
     -   id: pytest
