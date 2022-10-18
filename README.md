@@ -35,4 +35,5 @@ Amazon SageMaker Studio Lab を使用し簡単に始めることができます�
 ハンズオンは2部構成を想定して作られています。
 
 * Day1: ハンズオンコンテンツを実施し、HTMLから情報を抽出する方法を身に着ける。宿題として興味ある企業からセグメント情報の抽出を試み、HomeworkTemplateに記載する。
-* Day2: Homeworkの共有を行う。
+* Day2: Homeworkの共有を行う。読み取り結果の統計を参照しながら、発行体に促すべき記載の方式についてディスカッションする。
+   * 決算短信HTMLの読み取り可否状況レポート [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/JapanExchangeGroup/FinancialResultsHTML-DataExtraction/blob/main/notebooks/a1_financial_result_to_dataframe.ipynb)
