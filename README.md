@@ -26,8 +26,14 @@ HTML 化された決算短信は、[適時開示情報閲覧サービス](https:
    * Exercies1: 決算短信 HTML ファイルからセグメント情報を抽出する
    * Exercies2: セグメント情報の抽出が失敗する理由を分析する
 
-※2番目のコンテンツ Exercise2 が示すように、本ハンズオンはあらゆる企業の HTML からセグメント情報が抽出できるプログラムを提供するものではありません。抽出が失敗する理由を理解し、修正箇所を特定できる技能を身に着けることを目的としています。
+※本ハンズオンはあらゆる企業の HTML からセグメント情報が抽出できるプログラムを提供するものではありません。抽出が失敗する理由を理解し、修正箇所を特定できる技能を身に着けることを目的としています。
 
 ## ハンズオンの進め方
 
 Amazon SageMaker Studio Lab を使用し簡単に始めることができます。ハンズオンのはじめ方は、 [ハンズオンの進め方](docs/README_usage.md)を参照してください。
+
+ハンズオンは2部構成を想定して作られています。
+
+* Day1: ハンズオンコンテンツを実施し、HTMLから情報を抽出する方法を身に着ける。宿題として興味ある企業からセグメント情報の抽出を試み、HomeworkTemplateに記載する。
+* Day2: Homeworkの共有を行う。読み取り結果の統計を参照しながら、発行体に促すべき記載の方式についてディスカッションする。
+   * 決算短信HTMLの読み取り可否状況レポート [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/JapanExchangeGroup/FinancialResultsHTML-DataExtraction/blob/main/notebooks/a1_financial_result_to_dataframe.ipynb)
