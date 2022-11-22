@@ -108,8 +108,8 @@ def read_table_period(table: Tag) -> Period:
     """
 
     FIND_LIMIT = 3
-    PATTERN = re.compile(r".*(前|当).+(\d+年\d+月\d+日).+(\d+年\d+月\d+日)")
-    DATE_PATTERN = re.compile(r"\d+年\d+月\d+日")
+    PATTERN = re.compile(r".*(前|当).+(\d{4}年\d+月\d+日).+(\d{4}年\d+月\d+日)")
+    DATE_PATTERN = re.compile(r"\d{4}年\d+月\d+日")
     period = Period()
 
     count = 0
